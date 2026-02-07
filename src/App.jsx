@@ -4,9 +4,10 @@ import Banner from './components/banner/Banner'
 import Header from './components/header/Header'
 import Info from './components/info/Info'
 import Sale from './components/sale/Sale'
-import Shop from './components/shopp/Shop'
+
 import Home from './components/pages/home/Home'
 import Footer from './components/footer/Footer'
+import Shop from './components/shop/Shop'
 
 const h_ul = ['Product', 'Flash Sale', 'Best Sellers', 'Special Offers', 'Blog', 'About Us', 'Contact Us',]
 
