@@ -1,0 +1,120 @@
+
+
+.top_part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.Logo {
+  height: 35px;
+}
+
+.top_input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  flex: 1;
+  max-width: 600px;
+  background: white;
+}
+
+.t_input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.top_select {
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  color: gray;
+  outline: none;
+}
+
+.input_icon {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  margin-left: -85px;
+}
+
+.top_icons {
+  display: flex;
+  gap: 18px;
+  font-size: 22px;
+}
+
+.bottom_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hb_select {
+  padding: 15px 30px;
+  border-radius: 10px;
+  background-color: #000;
+  color: white;
+}
+
+.h_navbar a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+
+.h_navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.bottom_stores {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 5px 7px;
+}
+
+.bs_icon {
+  font-size: 32px;
+}
+
+
+.bstores_text {
+  line-height: 9px;
+}
+
+.h_p2 {
+  font-size: 12px;
+  color: rgba(46, 46, 46, 1);
+  letter-spacing: 0.5px;
+}
+
+.h_p1 {
+  font-size: 14px;
+  color: rgba(46, 46, 46, 1);
+}
