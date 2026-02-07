@@ -62,7 +62,7 @@ const Sale = () => {
           <p>iPhone</p>
           <p>iPhone</p>
 
-          <Link to={'/'}>Add Smartphone  </Link>
+          <Link className='link' to={'/'}>Add Smartphone  </Link>
           </div>
         </div>
         <div className="c_2">
@@ -74,7 +74,7 @@ const Sale = () => {
           <p>iPhone</p>
           <p>iPhone</p>
 
-          <Link to={'/'}>Add Smartphone  </Link>
+          <Link className='link' to={'/'}>Add Smartphone  </Link>
           </div>
         </div>
         <div className="c_3">
@@ -86,7 +86,7 @@ const Sale = () => {
           <p>iPhone</p>
           <p>iPhone</p>
 
-          <Link to={'/'}>Add Smartphone  </Link>
+          <Link className='link' to={'/'}>Add Smartphone  </Link>
           </div>
         </div>
         <div className="c_4">
@@ -98,7 +98,7 @@ const Sale = () => {
           <p>iPhone</p>
           <p>iPhone</p>
 
-          <Link to={'/'}>Add Smartphone  </Link>
+          <Link className='link' to={'/'}>Add Smartphone  </Link>
           </div>
         </div>
         <div className="c_5">
@@ -110,7 +110,7 @@ const Sale = () => {
           <p>iPhone</p>
           <p>iPhone</p>
 
-          <Link to={'/'}>Add Smartphone  </Link>
+          <Link className='link' to={'/'}>Add Smartphone  </Link>
           </div>
         </div>
         <div className="c_6">
@@ -122,7 +122,7 @@ const Sale = () => {
           <p>iPhone</p>
           <p>iPhone</p>
 
-          <Link to={'/'}>Add Smartphone  </Link>
+          <Link className='link' to={'/'}>Add Smartphone  </Link>
           </div>
         </div>
       </div>

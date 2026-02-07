@@ -26,9 +26,9 @@
 
 }
 
-.banner_wrapper h2 {
+h2 {
   font-size: 60px;
-  padding-bottom: 12px;
+  padding-bottom: 50px;
   color: #fff;
   width: 368px;
   height: 136px;
@@ -42,14 +42,15 @@
   line-height: 20px;
   font-weight: 500px;
   color: rgba(207, 207, 207, 1);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .banner_border{
   border: 1px solid rgba(207, 207, 207, 1);
   border-radius: 8px;
   width: 430px;
-  height: 128px;
+  text-align: center;
   color: rgba(207, 207, 207, 1);
   margin-bottom: 20px;
 }
@@ -62,7 +63,6 @@
   padding-bottom: 18px;
   padding-top: 14px;
 }
-
 
 
 .second {

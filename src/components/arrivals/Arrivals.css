@@ -73,3 +73,32 @@
   border-radius: 8px;
 }
 
+.a_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  gap: 20px;
+}
+
+.acard_wrapper {
+  width: 338px;
+  text-align: center;
+}
+
+.acard_wrapper img {
+  width: 338px;
+  height: 338px;
+  border: none;
+  border-radius: 8px;
+}
+
+.icons{
+  color: rgba(0, 250, 235, 1);
+}
+
+.acard_wrapper b {
+  padding-bottom: 8px;
+}
+
+.acard_wrapper p {
+  padding-bottom: 8px;
+}

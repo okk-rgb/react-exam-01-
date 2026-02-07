@@ -6,6 +6,7 @@ import Info from './components/info/Info'
 import Sale from './components/sale/Sale'
 import Shop from './components/shopp/Shop'
 import Home from './components/pages/home/Home'
+import Footer from './components/footer/Footer'
 
 const h_ul = ['Product', 'Flash Sale', 'Best Sellers', 'Special Offers', 'Blog', 'About Us', 'Contact Us',]
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/shop' element={<Shop/>}/>
       </Routes>
 
+      <Footer/>
       
 
       

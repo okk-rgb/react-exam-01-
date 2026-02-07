@@ -1,6 +1,6 @@
 import './Arrivals.css'
 
-const Arrivals = () => {
+const Arrivals = ({ a_cards }) => {
   return (
       <div className="container">
     <div className='arrivals_background'>
@@ -30,6 +30,32 @@ const Arrivals = () => {
           </div>
         </div>
       </div>
+    </div>
+
+          <div className="cards_text">
+            <h3 style={{
+              fontSize: '34px',
+              paddingBottom: '40px'
+            }}>New Arrivals</h3>
+          </div>
+          
+    <div className="a_cards">
+      {
+        a_cards.map((item, index) => {
+          return(
+
+            <div className="acard_wrapper" key={index}>
+              <img src={item.url} alt="" />
+              <b>{item.price}</b>
+              <p>{item.description}</p>
+              <div className='icons'>{item.ratings}</div>
+              <div className="awrap_icon">
+
+              </div>
+            </div>
+          )
+        })
+      }
     </div>
     </div>
   )
